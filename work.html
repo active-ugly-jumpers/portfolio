@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon3.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&family=VT323&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.production.css" type="text/css">
+    <title>pportfolio</title>
+</head>
+
+<body>
+    <header class="page-header">
+        <img class="page-header__item" src="img/logo3.png" type="image/x-icon"
+            alt="Website logo depicting a decomposing pixel.">
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item">home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">about</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item--active">work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>woooooork</h1>
+        <div class="project-list">
+
+            <!-- TECH PROJECTS -->
+            <!-- <div class="project-list__item category">tech projects</div> -->
+
+            <div class="project-list__item">
+                <h3>shared music player</h3>
+                <p>a tiny, homegrown music player for me and my friends. runs on a raspberry pi with user accounts and
+                    an
+                    external drive mounted into their home folders. gonic serves the music, a simple react + typescript
+                    +
+                    tailwind frontend handles playback — all behind nginx, wrapped in docker.</p>
+                <img src="img/work/player-shared.png" alt="shared music player screenshot" />
+            </div>
+
+            <div class="project-list__item">
+                <h3>personal music player</h3>
+                <p>reuse, recycle! i built my own local music player by reusing the stack — and much of the code — from
+                    the
+                    shared version. same tech, but with additional organization by artist and record label, and an
+                    improved
+                    queue.</p>
+                <img src="img/work/player-personal.png" alt="personal music library screenshot" />
+            </div>
+
+            <div class="project-list__item">
+                <h3>berlin cultural events</h3>
+                <p>a quiet directory of berlin’s cultural life — curated by me, and built with just html, css, and a bit
+                    of
+                    js. it’s basic, a table, but it works.
+                    <a href="https://fomo.uber.space/">see it here</a> (currently not updated as i'm working on v2 with
+                    a proper database).
+                </p>
+                <img src="img/work/fomo.png" alt="berlin events website screenshot" />
+            </div>
+
+            <!-- DATA & VIS -->
+            <!-- <div class="project-list__item category">data & vis</div> -->
+
+            <div class="project-list__item">
+                <h3>the tree of complexity</h3>
+                <p>a visual exploration of how complexity unfolds inside youtube. i analyzed platform data with python
+                    (pandas) and created interactive scrolling visualizations with d3.js. the work maps how features
+                    like
+                    recommendations, search, and the news intersect — not to simplify, but to make visible what’s
+                    often hidden. it’s a call for deeper, more systemic platform audits.
+                    <a
+                        href="https://web.archive.org/web/20231010013002/https://www.stiftung-nv.de/de/publication/the-tree-of-complexity">see
+                        it here</a>.
+                </p>
+                <img src="img/work/youtube.png" alt="chart from the publication" />
+                <!-- <img src="img/work/youtube1.png" alt="second chart" /> -->
+            </div>
+
+            <div class="project-list__item">
+                <h3>germany’s cybersecurity architecture</h3>
+                <p>built a python pipeline to automatically turn excel data into interactive bokeh visualizations for
+                    policy research.
+                    <a href="https://www.interface-eu.org/publications/germanys-cybersecurity-architecture">see it
+                        here</a>.
+                </p>
+                <img src="img/work/cybersec.png" alt="cybersecurity architecture chart" />
+            </div>
+
+            <div class="project-list__item">
+                <h3>semiconductor emission explorer</h3>
+                <p>analyzed emissions data with python and pandas, created interactive charts with plotly for exploring
+                    industry trends.
+                    <a href="https://www.interface-eu.org/index.php/publications/semiconductor-emission-explorer">see it
+                        here</a>.
+                </p>
+                <img src="img/work/emissions.png" alt="semiconductor emissions chart" />
+            </div>
+
+            <!-- PHILOSOPHY OF TECH -->
+            <!-- <div class="project-list__item category">philosophy of tech</div> -->
+
+            <div class="project-list__item">
+                <h3>festival talk</h3>
+                <p>a talk at a festival about why tech is never neutral, spotify’s quiet power, and ideas from langdon
+                    winner and donna haraway. a backdrop for my music player experiments.
+                    <a
+                        href="https://cryptpad.fr/presentation/#/2/presentation/view/dcV+ugWzAO7BvL-YnIhACA34xQEXg-6-2ZrsLEvbDLA/embed/">see
+                        it here</a>.
+                </p>
+                <img src="img/work/presentation.png" alt="slide screenshot" />
+                <img src="img/work/presentation1.png" alt="second slide" />
+            </div>
+
+            <!-- NOT TECH -->
+            <!-- <div class="project-list__item category">not tech</div> -->
+
+            <div class="project-list__item">
+                <h3>community gatherings & posters</h3>
+                <p>co-organizing wonderung — a self-organized platform for performances, workshops, and discussions in
+                    berlin’s urban landscapes. i also created posters for these events, experimenting with textures,
+                    type, and
+                    minimal color palettes.</p>
+                <img src="img/work/posters.png" alt="six posters" />
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
